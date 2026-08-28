@@ -12,7 +12,7 @@
     "@microsoft/edge-devtools-crash-analyzer-support": "^1.0.0"
   },
   "scripts": {
-    "build-dev": "webpack --config webpack.dev.js",
-    "build-prod": "webpack --config webpack.prod.js"
+    "build-dev": "node init && webpack --config webpack.dev.js",
+    "build-prod": "node init && webpack --config webpack.prod.js"
   }
 }
